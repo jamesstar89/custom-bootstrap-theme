@@ -14,7 +14,6 @@ module.exports = function(grunt) {
 		    options: {
 		      partials: ['src/partials/*.hbs','src/layouts/layout.html'],
 		      basePath: 'src/',
-		      modules: ['handlebars-helpers'],
 		      context: {
 		        title: 'Layout',
 		        projectName: 'Creating your own Bootstrap Theme',

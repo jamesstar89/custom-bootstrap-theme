@@ -4,19 +4,20 @@
 }
 
 a {
-  color: white;
-  text-decoration: none;
+	font-size:15px;
+	color: white;
+	text-decoration: none;
 }
 
 a:focus, a:hover {
-  color: white;
-  text-decoration: underline;
+	color: white;
+	text-decoration: underline;
 }
 
 a:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
 }
 
 h1 {
@@ -26,6 +27,10 @@ h1 {
 
 img {
 	max-width:100%;
+}
+
+p {
+	font-size:15px;
 }
 
 .menu {
